@@ -1,3 +1,21 @@
+body {
+  padding: 30px;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.clickHide {
+  cursor: pointer;
+  border: 2px solid red;
+  padding: 2px;
+}
+
 .App {
   text-align: center;
 }
@@ -32,7 +50,12 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+img {
+  width: 30%;
 }
